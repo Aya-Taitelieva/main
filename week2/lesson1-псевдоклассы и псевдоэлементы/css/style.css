@@ -1,0 +1,79 @@
+h2:hover {
+  color: red;
+  font-weight: 400;
+  font-style: italic;
+}
+a:visited {
+  color: darkgreen;
+}
+a:link {
+  color: brown;
+}
+input:focus {
+  /* background-color: red; */
+  outline-color: red;
+}
+/* li:first-child {
+  color: blue;
+}
+li:last-child {
+  color: yellow;
+}
+li:nth-child(2)определенный  {
+  color: indigo;
+}
+li:nth-child(even)четные {
+  color: indigo;
+}
+li:nth-child(odd)нечетные {
+  color: pink;
+} */
+/* li:nth-child(3n) каждый 3ий{
+  color: green;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+p:target {
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+/* используют в связке с ссылкой  */
+
+.text::first-letter {
+  font-size: 40px;
+  color: gold;
+}
+
+.text::first-line {
+  color: aquamarine;
+}
+.text::selection {
+  background-color: palevioletred;
+  color: brown;
+}
+span::after {
+  content: "🍒🍒🍒🍒🍒";
+  margin-left: 10px;
+}
+
+span::before {
+  content: "🍒🍒🍒🍒🍒";
+}
+
+input {
+  color: goldenrod;
+}
+input::placeholder {
+  color: aquamarine;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: "🍒";
+}
+li:nth-child(even) {
+  list-style-type: "*";
+}

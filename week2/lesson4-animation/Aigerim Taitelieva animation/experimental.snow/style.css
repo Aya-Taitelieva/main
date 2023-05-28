@@ -1,0 +1,30 @@
+body {
+  background-color: darkblue;
+}
+
+.snowflakes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  animation-name: snowflake;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake {
+  0% {
+    margin-top: -10px;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 700px;
+  }
+}

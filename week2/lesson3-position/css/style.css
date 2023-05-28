@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  margin: 0 auto;
+  position: relative;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
+  /* bottom: 0;
+  left: 0px; */
+  right: 0px;
+}
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  /* border-radius: 100px; */
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+}
+header {
+  height: 100px;
+  /* position: fixed; */
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: antiquewhite;
+  z-index: 1;
+}

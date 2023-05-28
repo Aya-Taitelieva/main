@@ -1,0 +1,29 @@
+.container {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.left {
+  display: flex;
+  justify-self: flex-start;
+}
+
+#div1 {
+  color: white;
+  font-weight: 700;
+}
+.div2 {
+  color: gray;
+}
+input {
+  display: flex;
+  border-radius: 15px;
+  margin: 3px;
+
+  width: 50;
+}

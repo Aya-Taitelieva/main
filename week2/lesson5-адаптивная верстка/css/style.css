@@ -1,0 +1,67 @@
+/* parent { 
+    font-size: 2em; 
+  } 
+   
+  .child { 
+    font-size: 2em; 
+  } */
+
+body {
+  margin: 0;
+}
+.container {
+  height: 300px;
+  width: 90vw;
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+}
+.block-1 {
+  width: 20%;
+  height: 100%;
+  background-color: aquamarine;
+}
+.block-2 {
+  width: 40%;
+  height: 100%;
+  background-color: blue;
+}
+.block-3 {
+  width: 30%;
+  height: 100%;
+  background-color: chartreuse;
+}
+
+.container-2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+}
+.block:nth-child(odd) {
+  background-color: pink;
+}
+.block:nth-child(even) {
+  background-color: green;
+}
+@media screen and (max-width: 600px) {
+  .block:nth-child(even) {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 450px) {
+  .block:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container-2 {
+    display: block;
+  }
+}
